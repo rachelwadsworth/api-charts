@@ -1,9 +1,9 @@
-import CoheedChart from "./CoheedChart";
+import Bitcoin from "./Bitcoin";
 
 function App() {
   return (
     <div>
-      <CoheedChart />
+      <Bitcoin />
     </div>
   );
 }
