@@ -6,7 +6,7 @@ const options = {
   url: "https://youtube-search-results.p.rapidapi.com/youtube-search/",
   params: { q: "Coheed and Cambria", next: "views" },
   headers: {
-    "x-rapidapi-key": process.env.REACT_APP_API_KEY
+    "x-rapidapi-key": process.env.REACT_APP_API_KEY,
     "x-rapidapi-host": "youtube-search-results.p.rapidapi.com",
   },
 };
@@ -23,7 +23,7 @@ const CoheedChart = () => {
       });
   }, []);
 
-  return <div>European History</div>;
+  return <div>Coheed and Cambria</div>;
 };
 
 export default CoheedChart;
