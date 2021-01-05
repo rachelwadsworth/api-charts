@@ -1,1 +1,1 @@
-export const normalizeData = (dataFromApi) => {
+const apiData;
